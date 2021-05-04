@@ -17,19 +17,19 @@ public class bai3 {
     static Scanner sc = new Scanner(System.in);
         static void nhapconnguoi(connguoi a1){
             System.out.print("Nhap ten: ");
-            a1.setHoten(sc.nextLine());
+            a1.setHoten(sc.nextLine());sc.nextLine();
             System.out.print("Nhap ngay sinh: ");
             a1.setNgaysinh(sc.nextLine());
         }
         static void nhaphocsinh(hocsinh b1){
             System.out.print("Nhap mahs: ");
-            b1.setMahs(sc.nextLine());
+            b1.setMahs(sc.nextLine());sc.nextLine();
             System.out.print("Nhap ten hs: ");
             b1.setName(sc.nextLine());
         }
         static void nhapgiaovien(giaovien c1){
             System.out.print("Nhap magv: ");
-            c1.setMagv(sc.nextLine());
+            c1.setMagv(sc.nextLine());sc.nextLine();
             System.out.print("Nhap lop hoc: ");
             c1.setLophoc(sc.nextLine());
         }
