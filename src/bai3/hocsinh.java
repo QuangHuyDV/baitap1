@@ -17,7 +17,10 @@ public class hocsinh {
         this.mahs = mahs;
         this.name = name;
     }
-
+    public hocsinh(){
+    
+    }
+    
     public String getMahs() {
         return mahs;
     }

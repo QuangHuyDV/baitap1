@@ -11,13 +11,17 @@ package bai3;
  */
 public class giaovien {
     String magv;
-    String[] lophoc;
+    String lophoc;
 
-    public giaovien(String magv, String[] lophoc) {
+    public giaovien(String magv, String lophoc) {
         this.magv = magv;
         this.lophoc = lophoc;
     }
-
+    
+    public giaovien(){
+    
+    }
+    
     public String getMagv() {
         return magv;
     }
@@ -26,11 +30,11 @@ public class giaovien {
         this.magv = magv;
     }
 
-    public String[] getLophoc() {
+    public String getLophoc() {
         return lophoc;
     }
 
-    public void setLophoc(String[] lophoc) {
+    public void setLophoc(String lophoc) {
         this.lophoc = lophoc;
     }
 
